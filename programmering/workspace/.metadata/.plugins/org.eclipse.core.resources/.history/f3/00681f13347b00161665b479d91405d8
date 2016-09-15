@@ -1,0 +1,59 @@
+package hello_world;
+
+public class Hello_world {
+
+	double d1;
+	
+	private void kbdTest(){
+		
+		int i1 = Kbd.readInt("Integer: ");
+		String test = Kbd.readString("Input Kbd: ");
+		System.out.println(i1);
+		System.out.println(test);
+		
+	}
+	
+	private void liten(){
+		char c1 = Kbd.readChar("char: ");
+		if((int)c1 >= (int)'A' & (int)c1 <= (int)'Z'){
+			System.out.println(c1 + " liten " + (char)(c1+32));
+			
+		}
+		else if((int)c1 >= (int)'a' & (int)c1 <= (int)'z'){
+			System.out.println(c1 + " stor " + (char)(c1-32));
+
+		}
+		else{
+			System.out.println("Error");
+		}
+
+	}
+	
+	private void tArea() {
+		double b = Kbd.readDouble("Bas: ");
+		double h = Kbd.readDouble("Höjd: ");
+		System.out.println((b*h/2));
+	}
+	
+	private int avrunda(double d1){
+		d1 += 0.5;
+		return (int)d1;
+	}
+	
+	private void bankomat() {
+		int i1 = Kbd.readInt("");
+		i1 += (i1/100)*100;
+		System.out.println(i1);
+	}
+	
+	public static void main(String[] args) {
+		Hello_world h = new Hello_world();
+		
+		//h.kbdTest();
+		//h.liten();
+		//h.tArea();
+		h.bankomat();
+		
+	}
+
+}

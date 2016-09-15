@@ -1,0 +1,38 @@
+package hello_world;
+
+public class Hello_world {
+
+	private void kbdTest(){
+		
+		int i1 = Kbd.readInt("Integer: ");
+		String test = Kbd.readString("Input Kbd: ");
+		System.out.println(i1);
+		System.out.println(test);
+		
+	}
+	
+	private void liten(){
+		char c1 = Kbd.readChar("char: ");
+		if((int)c1 >= (int)'A' & (int)c1 <= (int)'Z'){
+			System.out.println(c1 + " liten " + (char)(c1+32));
+			
+		}
+		else if((int)c1 >= (int)'a' & (int)c1 <= (int)'z'){
+			System.out.println(c1 + " stor " + (char)(c1-32));
+
+		}
+		else{
+			System.out.println("Error");
+		}
+
+	}
+	
+	public static void main(String[] args) {
+		Hello_world h = new Hello_world();
+		
+		//h.kbdTest();
+		h.liten();
+		
+	}
+
+}
