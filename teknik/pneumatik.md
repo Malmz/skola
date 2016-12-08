@@ -1,0 +1,12 @@
+1. Vad betyder pneuma?
+  - Luft eller vind
+- Vilka är de viktigaste delarna i ett pneumatiskt system?
+  - Kompressor
+  - Tryckregulator
+  - Ventiler
+  - Cylindrar
+- Hur tillverkar man tryckluft?
+  - Men en kompressor
+- Till vad använder man en dimsmörjare?
+  - För att tillföra små mängder olja. Detta görs för att smörja rörliga delar och skydda mot korrosion.
+- 

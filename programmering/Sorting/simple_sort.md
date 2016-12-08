@@ -1,0 +1,6 @@
+- Gå igenom varje nummer i arrayen. Index för nuvarande nummer är lagrat i variablen `index`.
+  - Deklarera variabel `smallest` med värdet `index`.
+  - Stara på nummer `index`+1 och gå igenom varje nummer i arrayen. Index för nuvarande nummer är lagrat i variablen `innerIndex`.
+    - Om nummret vid `innerIndex` är mindre än nummret vid `smallest`.
+      - `smallest` = `innerIndex`
+  - Byt plats på `index` och `smallest`

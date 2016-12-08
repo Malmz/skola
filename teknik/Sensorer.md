@@ -14,4 +14,7 @@
 - Tryck
 - Temperatur
 
-#### 
+#### Vad används GMR-sensorer till?
+
+- GMR-sensorer används oftast för att mäta varvtal
+- 
