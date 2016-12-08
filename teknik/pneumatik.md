@@ -9,4 +9,10 @@
   - Men en kompressor
 - Till vad använder man en dimsmörjare?
   - För att tillföra små mängder olja. Detta görs för att smörja rörliga delar och skydda mot korrosion.
+- Varför finns det en tryckregulator i pneumatiska system?
+  - För att kontrolera arbetstrycket i systemet.
+- Vilka fysikaliska storheter kan man styra med pneumatiska ventiler?
+  - Tryck
+  - Riktning
+  - Hastighet
 - 
