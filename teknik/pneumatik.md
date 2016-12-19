@@ -15,4 +15,7 @@
   - Tryck
   - Riktning
   - Hastighet
+- Ventiler betecknas efter antalet portar och antal lägen ventilen kan ställas i. Förklara innebörden av detta.
+  - Portar är antalet in- och utgångar för luft en ventil har.
+  - Lägen är olika positioner kolven i ventilen kan ha för att ge unika kopplingar mellan portar.
 - 
