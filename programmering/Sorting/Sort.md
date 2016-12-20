@@ -26,3 +26,15 @@ Bubble sort loopar igenom en array. För varje värde i arrayen loopar den igeno
 Bilden visar sortering från motsatt håll men iden är samma.
 
 ## Prestanda
+
+Array length? 50000
+Number range? 500
+Simple sort took 1403 milliseconds
+Bubble sort took 4460 milliseconds
+Bubble sort exited early on iteration 49639
+
+Array length? 10000
+Number range? 500
+Simple sort took 59 milliseconds
+Bubble sort took 149 milliseconds
+Bubble sort exited early on iteration 9841
