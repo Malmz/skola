@@ -10,8 +10,8 @@ Selection sort loopar igenom en array. För varje värde i arrayen loopar den ig
 
 - Gå igenom varje nummer i arrayen. Index för nuvarande nummer är lagrat i variablen `index`.
   - Deklarera variabel `smallest` med värdet `index`.
-  - Stara på nummer `index`+1 och gå igenom varje nummer i arrayen. Index för nuvarande nummer är lagrat i variablen `innerIndex`.
-    - Om nummret vid `innerIndex` är mindre än nummret vid `smallest`.
+  - Starta på nummer `index`+1 och gå igenom varje nummer i arrayen. Index för nuvarande nummer är lagrat i variablen `innerIndex`.
+    - Om numret vid `innerIndex` är mindre än numret vid `smallest`.
       - `smallest` = `innerIndex`
   - Byt plats på `index` och `smallest`
 
@@ -19,7 +19,7 @@ Selection sort loopar igenom en array. För varje värde i arrayen loopar den ig
 
 #### Beskrivning av operation
 
-Bubble sort loopar igenom en array. För varje värde i arrayen loopar den igenom backlänges. Om talet under är mindre, byt plats på dem. Det första talet är nu sorterat så vi behöver inte röra det mer. Om inga tal bytte plats under en iteration så betyder det att arrayen är sorterad och programet kan avslutas.
+Bubble sort loopar igenom en array. För varje värde i arrayen loopar den igenom baklänges. Om talet under är mindre, byt plats på dem. Det första talet är nu sorterat så vi behöver inte röra det mer. Om inga tal bytte plats under en iteration så betyder det att arrayen är sorterad och programmet kan avslutas.
 
 ![bubble sort gif](http://piratelearner.com/static/media/images/admin/2015/10/13/bubble.gif)
 
