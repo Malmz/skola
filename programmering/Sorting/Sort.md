@@ -8,7 +8,6 @@ Selection sort loopar igenom ett fält. För varje värde i fältet loopar den i
 
 #### Kod
 
-<<<<<<< HEAD
 ```java
 private static int[] simpleSort(int[] array) {
         int[] newArray = array.clone();
@@ -79,7 +78,6 @@ Nedan är några tester gjorda på bubble och simple sort. Testerna gjordes med 
   - Bubble sort tog 18760 millisekunder och blev klar efter 99389 iterationer
 
 Med mindre fält är simple sort ungefär dubbelt så snabb men för större fält går det mot fyra gånger så snabb. Detta beror på att bubble och simple sort gör like många jämförelser men bubble sort gör många fler byten vilket gör den långsammare.
-<<<<<<< HEAD
 
 ## Insertion sort
 
