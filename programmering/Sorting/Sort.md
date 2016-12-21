@@ -1,6 +1,6 @@
 # Sorting
 
-[Källkod](https://github.com/Malmz/java-sorting/tree/master/src)
+[Källkod](https://github.com/Malmz/java-sorting/releases/download/v1.0/source.zip)
 
 ## Simple sort (Selection sort)
 
